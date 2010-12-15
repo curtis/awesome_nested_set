@@ -1,4 +1,4 @@
-require 'awesome_nested_set'
+require File.join(File.dirname(__FILE__), 'lib', 'awesome_nested_set')
 
 ActiveRecord::Base.class_eval do
   include CollectiveIdea::Acts::NestedSet
